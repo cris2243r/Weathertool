@@ -147,7 +147,7 @@ fieldset {
 }
 
 label {
-  padding-bottom: 0.5em;
+  padding-bottom: 0.7em;
 }
 
 input::placeholder {
@@ -156,9 +156,9 @@ input::placeholder {
 
 
 input[type=text] {
-  padding-left: 0.4em;
+  padding-left: 0.9em;
   width:100%;
-  height: 2.5em;
+  height: 3.5em;
   font-size: 1.6em;
   font-weight: bold;
   border-radius: 20px;
@@ -178,8 +178,8 @@ input[type=button] {
   border-radius: 50%;
   font-weight: bold;
   font-size: 2em;
-  margin-top: 0.2em;
-  margin-left: 10px;
+  margin-top: 2em;
+  margin-left: 30px;
   outline: none;
 }
 /* Add CSS for better mobile appearance */
