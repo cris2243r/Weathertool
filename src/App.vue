@@ -177,8 +177,8 @@ input[type=button] {
   border-radius: 50%;
   font-weight: bold;
   font-size: 2em;
-  margin-top: -2.3em;
-  margin-left: 3px;
+  margin-top: -2.5em;
+  margin-left: 0.5px;
   outline: none;
 }
 /* Add CSS for better mobile appearance */
