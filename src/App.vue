@@ -164,7 +164,7 @@ input[type=text] {
   border-radius: 20px;
   border-color:#f6767600;
   outline: none;
-  
+  margin-left: 0.7em;
 }
 
 input[type=button] {
@@ -177,8 +177,8 @@ input[type=button] {
   border-radius: 50%;
   font-weight: bold;
   font-size: 2em;
-  margin-top: 2em;
-  margin-left: 30px;
+  margin-top: -2.3em;
+  margin-left: 3px;
   outline: none;
 }
 /* Add CSS for better mobile appearance */
@@ -188,6 +188,7 @@ input[type=button] {
     font-size: 1.3em;
     padding-left: 0.9em;
     padding-right: 1.2em;
+    margin-left: 0.7em;
   }
 }
 
@@ -259,6 +260,8 @@ h4 {
   text-align: center;
   width: 100%;
   font-size: 3em;
+  margin-left: 0.3em;
+
 }
 
 @media only screen and (max-width: 768px) {
