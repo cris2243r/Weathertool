@@ -245,7 +245,7 @@ h1 {
 }
 
 .lug h1 {
-    font-size: 1.5em;
+    font-size: 1em;
 }
 .secondary[data-v-ec94e9cc] {
     display: flex;
