@@ -119,16 +119,16 @@ body {
 header {
   background-color: #eae7dc;
   color:rgb(0, 0, 0);
-  padding-top: 1.6em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 header h1 {
-  font-size: 5em;
-  margin-bottom: 0.6em;
+  font-size: 3em;
+  margin-bottom: 0.4em;
 }
 
 
@@ -157,8 +157,8 @@ input::placeholder {
 input[type=text] {
   padding-left: 0.4em;
   width:100%;
-  height: 2em;
-  font-size: 2em;
+  height: 2.5em;
+  font-size: 1.6em;
   font-weight: bold;
   border-radius: 20px;
   border-color:#f6767600;
@@ -176,10 +176,17 @@ input[type=button] {
   align-items: center;
   border-radius: 50%;
   font-weight: bold;
-  font-size: 2.6em;
-  margin-top: 0.5em;
-  margin-left: 20px;
+  font-size: 2em;
+  margin-top: 0.2em;
+  margin-left: 10px;
   outline: none;
+}
+/* Add CSS for better mobile appearance */
+@media only screen and (max-width: 768px) {
+  input[type=text] {
+    height: 2em;
+    font-size: 1.4em;
+  }
 }
 
 input[type=button]:hover {
@@ -193,7 +200,12 @@ ul {
 }
 
 li {
-  padding-bottom: 0.4em;
+  padding-bottom: 0.2em;
+}
+@media only screen and (max-width: 768px) {
+  li {
+    font-size: 1.6em; 
+  }
 }
 
 li:hover {
@@ -208,12 +220,12 @@ li:hover {
   align-items: center;
   margin-top: 3em;
   color: #ffffff;
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: bold;
 }
 
 .empty span{
-  font-size: 4em;
+  font-size: 3em;
 }
 
 
