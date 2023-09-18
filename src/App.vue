@@ -185,8 +185,8 @@ input[type=button] {
 /* Add CSS for better mobile appearance */
 @media only screen and (max-width: 768px) {
   input[type=text] {
-    height: 2em;
-    font-size: 1.4em;
+    height: 3.5em;
+    font-size: 1.6em;
   }
 }
 
