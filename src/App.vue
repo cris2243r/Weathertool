@@ -159,12 +159,11 @@ input[type=text] {
   padding-left: 0.9em;
   width:100%;
   height: 3.5em;
-  font-size: 1.6em;
+  font-size: 1.3em;
   font-weight: bold;
   border-radius: 20px;
   border-color:#f6767600;
   outline: none;
-  
   
 }
 
@@ -186,7 +185,8 @@ input[type=button] {
 @media only screen and (max-width: 768px) {
   input[type=text] {
     height: 3.5em;
-    font-size: 1.6em;
+    font-size: 1.3em;
+    padding-left: 0.9em;
   }
 }
 
