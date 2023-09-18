@@ -127,7 +127,7 @@ header {
 }
 
 header h1 {
-  font-size: 5em;
+  font-size: 4.5em;
   margin-bottom: 0.4em;
 }
 
