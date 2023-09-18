@@ -187,6 +187,7 @@ input[type=button] {
     height: 3.5em;
     font-size: 1.3em;
     padding-left: 0.9em;
+    padding-right: 1.2em;
   }
 }
 
