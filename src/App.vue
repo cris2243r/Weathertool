@@ -164,13 +164,13 @@ input[type=text] {
   border-radius: 20px;
   border-color:#f6767600;
   outline: none;
-  margin-left: 0.7em;
+  margin-left: 0.2em;
 }
 
 input[type=button] {
   background-color: transparent;
   border: none;
-  color: rgb(0, 0, 0);
+  color: rgb(0, 91, 160);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,7 +178,7 @@ input[type=button] {
   font-weight: bold;
   font-size: 2em;
   margin-top: -2.5em;
-  margin-left: 0.5px;
+  margin-left: -0.5em;
   outline: none;
 }
 /* Add CSS for better mobile appearance */
@@ -260,7 +260,7 @@ h4 {
   text-align: center;
   width: 100%;
   font-size: 3em;
-  margin-left: 0.3em;
+  margin-left: 0.1em;
 
 }
 
