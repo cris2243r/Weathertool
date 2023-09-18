@@ -228,7 +228,7 @@ li:hover {
 }
 
 .empty span{
-  font-size: 3em;
+  font-size: 5em;
 }
 
 
@@ -237,10 +237,11 @@ h1 {
   margin-bottom: 0;
   text-align: left;
   display: flex;
+  font-size: 1.5em;
 }
 
 .lug h1 {
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 .secondary[data-v-ec94e9cc] {
     display: flex;
@@ -260,7 +261,7 @@ h4 {
   text-align: center;
   width: 100%;
   font-size: 3em;
-  margin-left: 0.1em;
+  margin-left: 0.em;
 
 }
 
