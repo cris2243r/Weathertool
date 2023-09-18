@@ -151,7 +151,7 @@ label {
 }
 
 input::placeholder {
-  color: #cecece;
+  color: #000000;
 }
 
 
@@ -165,12 +165,15 @@ input[type=text] {
   border-color:#f6767600;
   outline: none;
   margin-left: 0.2em;
+  color: #000000;
+  background-color: #eae7dc;
+  border-color: #000000;
 }
 
 input[type=button] {
   background-color: transparent;
   border: none;
-  color: rgb(0, 91, 160);
+  color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,6 +183,7 @@ input[type=button] {
   margin-top: -2.5em;
   margin-left: -0.5em;
   outline: none;
+ 
 }
 /* Add CSS for better mobile appearance */
 @media only screen and (max-width: 768px) {
@@ -194,7 +198,7 @@ input[type=button] {
 
 input[type=button]:hover {
   cursor: pointer;
-  color: #000000;
+  color: #b41414;
 }
 
 ul {
@@ -237,7 +241,7 @@ h1 {
   margin-bottom: 0;
   text-align: left;
   display: flex;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .lug h1 {
@@ -264,6 +268,8 @@ h4 {
   margin-left: 0.em;
 
 }
+
+
 
 @media only screen and (max-width: 768px) {
   .lug {
